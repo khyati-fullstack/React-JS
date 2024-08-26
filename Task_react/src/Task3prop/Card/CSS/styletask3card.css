@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* parentcard */
+.section , .form-data input , .form-data span{
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: rgb(51, 107, 109);
+}
+.form-data {
+    box-shadow: 2px 2px 2px 5px bisque;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    border: 2px solid pink;
+    border-radius: 10px;
+    height: 80vh;
+    width: 30%;
+    text-align: center;
+    padding: 20px 10px;
+}
+.form-data h1{
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 20px;
+    margin: 5px 5px 30px;
+}
+.form-data input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    padding: 8px 100px 8px 20px;
+}
+
+.form-data button {
+    color: rgb(51, 107, 109);
+    font-size: 15px;
+    background-color: bisque;
+    border: 1px solid pink;
+    border-radius: 10px;
+    padding: 8px 50px;
+}
+.form-data span{
+    border: 1px solid pink;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 8px 29px;
+}
+.form-data span input{
+    margin: 0px 10px 0px 0px ;
+}
+
+/* ..................................... */
+
+/* childcard */
+.card-section{
+    color: rgb(5, 122, 148);
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.card{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    background: rgb(221,251,243);
+    border: 2px solid rgb(5, 122, 148);
+    border-radius: 10px;
+    height: 80vh;
+    width: 25%;
+    padding: 0px 10px;
+}
+.card .title{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+.card h1{
+    text-align: center;
+    background: rgb(221,251,243);
+    padding: 22px 0px;
+}
+.card h2{
+    text-align: center;
+}
+.card img {
+    border: 2px solid rgb(5, 122, 148);
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+hr {
+    margin-bottom: 10px;
+    border: 1px solid rgb(5, 122, 148);
+}
+h3{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 40px;
+    margin: 15px auto;
+}
+h3 span {
+    padding: 5px;
+    font-stretch: 16px;
+    font-style: normal;
+}
+ i {
+    background-color: rgb(5, 122, 148);
+    color: rgb(221,251,243);
+    border-radius: 50px;
+    height: 42px;
+    width: 42px;
+    padding: 12px;
+}
+h3 p {
+    font-size: 15px;
+    width: 90%;
+    padding: 8px;
+    margin: 2px;
+}

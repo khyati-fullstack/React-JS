@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.task-mang form
+{
+    border: 1px solid black;
+    margin: 10px auto;
+    width: 80%;
+    height: 100px;
+}
+
+.task-mang input,select
+{
+    height: 20px;
+    width: 20%;
+    margin: 10px 5px;
+}
+
+.task-mang button
+{
+    padding: 8px 20px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/* ....Child.... */
+
+.task-mang table 
+{
+    margin: 10px auto;
+    width: 80%;
+}

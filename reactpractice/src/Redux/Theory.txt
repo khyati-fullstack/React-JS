@@ -1,0 +1,38 @@
+State managment:
+
+local State : local state manage by useState() (hook)
+
+props:when we want to pass or suply state beetween diffrent diffrent component
+at that time we use props there
+
+                            APP
+                             |
+                             V
+    ===============================================
+     |                     |
+     V                     V
+     Com1                Com4
+     |                     | 
+     Com2                Com5
+     |                     |
+     Com3                Com6
+
+     contextapi : which is applicable only on specific tree part
+    ============================================================
+     Redux : Redux a global state managment javascript library
+
+             Which is store all state at single location and its called (store)
+
+    Key point:
+    1]store
+    2]action
+    3]reducer: one kind of function which manage actions
+    4]dispatching
+    5]getting state:
+
+    latest version of Redux toolkit
+
+    ->createSlice
+    ->configureSlice
+ ===============================================
+npm i redux react-redux

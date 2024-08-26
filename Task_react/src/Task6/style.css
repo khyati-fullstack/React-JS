@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-page{
+  /* background-image: url(../../public/bgimg1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; */
+  height: 98vh; 
+}
+.navbar {
+  border: 2px double black;
+  display: flex;
+  margin:  5px 0px;
+}
+.container-page .rightimg{
+  background-image: url(../../public/img1.jpg);
+  margin:  0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  width: 20%;
+}
+.container-page .leftimg{
+  background-image: url(../../public/img2.jpg);
+  margin:  0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  width: 20%;
+}
+.container-page h1{
+  width: 80%;
+  margin:  0 auto;
+  padding: 10px 0px;
+  height: 60px;
+  text-align: center;
+  color: rgb(189, 170, 146);
+}
+
+.press-click{
+  font-size: 20px;
+  border: 2px double black;
+  width: 20%;
+  margin: 10px auto;
+  padding: 5px 20px;
+}
+
+.main-page{
+  /* margin: 10px; */
+  display: flex;
+}
+.menu-page{
+  margin: 0px 10px;
+  background-image: url(../../public/menubgimg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 85vh;
+  width: 26%;
+}
+.personal-details, .all-detail {
+  background-image: url(../../public/bgimg1.jpg);
+  background-position: center,center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(254, 233, 207);
+  height: 85vh;
+  width: 50%;
+  margin: 0px 5px;
+}
+.menu-page h2{
+  margin: 30px 0px 0px;
+  color: rgb(254, 233, 207);
+  text-align: center;
+}
+
+.menu-box{
+  display: flex;
+  /* justify-content: space-around; */
+}
+.menu-page p{
+  text-align: center;
+  padding: 8px;
+}
+.pizza-menu , .pasta-menu{
+  width: 50%;
+  height: 35vh;
+  /* border: 1px solid black; */
+}
+.pizza-menu h4 {
+  padding: 20px 67px 0px;
+}
+.pasta-menu h4{
+  padding: 20px 42px 0px;
+}
+.pizza-menu p , .pasta-menu p ,.mrgpara{
+  color: rgb(254, 233, 207);
+}
+.pizza-menu p {
+  padding: 10px 0px 0px 18px;
+}
+.pasta-menu p{
+  padding: 10px 25px 0px 0px;
+}
+.pizza-menu h5 {
+  padding: 37px 67px 0px;
+}
+.pasta-menu h5{
+  padding: 37px 42px 0px;
+}
+.mrgpara{
+  margin: 55px 10px 0px;
+  padding: 55px 10px 0px;
+}
+.personal-details{
+  font-size: 19px;
+  padding:  10px;
+  text-align: center;
+  color: rgb(254, 233, 207);
+}
+
+.personal-details p{
+  text-align: left;
+  padding: 0px 10px;
+}
+.personal-details #persondata{
+  background: none;
+  border: 1px solid rgb(254, 233, 207);
+  color: rgb(254, 233, 207);
+  margin: 0px 30px;
+  padding: 5px;
+  width: 45%;
+}
+.personal-details #pizzaorder ,.personal-details #pastaorder{
+  background: none;
+  border: 1px solid rgb(254, 233, 207);
+  color: rgb(254, 233, 207);
+  margin: 0px 5px;
+  padding: 5px;
+  width: 50px;
+}
+.personal-details button{
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(254, 233, 207);
+  width: 80%;
+  padding: 10px 20px;
+}
+.detailbox1{
+  font-size: 16px;
+  padding: 5px 0px;
+}
+/* .detailbox2{ */
+  /* width: 50px; */
+  /* height: 10vh; */
+  /* background-image: url(../../public/chef.jpg); */
+  /* background-position: center,center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+/* } */
+.order-detail{
+  border: 1px solid black;
+  height: 60vh;
+}
+.lastdata{
+  font-size: 25px;
+  text-align: start;
+}

@@ -1,0 +1,27 @@
+.groceryImg
+{
+    background-image: url(../../public/grocerybg.jpg)  ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+
+@media (min-width: 1400px) {  }
+@media (min-width: 1200px) {  }
+
+@media (min-width: 992px) {  }
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 576px) 
+{
+    
+    .SearchIcon
+    {
+            
+    }
+
+  }
+  
